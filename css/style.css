@@ -12,8 +12,22 @@ section {
     "Helvetica Neue",
     sans-serif;
 }
-header {
+header,
+.content {
+  margin-left: 100px;
+}
+.header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 10px;
 }
 .logo {
   font-size: 24px;
@@ -44,3 +58,8 @@ nav ul a li {
   font-size: 18px;
   list-style: none;
 }
+/*.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}*/
