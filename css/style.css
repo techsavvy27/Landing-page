@@ -88,3 +88,23 @@ nav ul a li {
   font-size: 24px;
   font-weight: 700;
 }
+
+/* second section css */
+
+.second H1 {
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 100px;
+}
+
+.images img {
+  height: 250px;
+  width: auto;
+}
